@@ -8,7 +8,7 @@ const Gallery = () => {
         <div className="text-center mb-12">
           <h1 className="text-display mb-4">Product Gallery</h1>
           <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
-            Explore our complete collection of premium phone covers
+            Explore our complete collection of premium table covers
           </p>
         </div>
         

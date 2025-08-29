@@ -8,7 +8,7 @@ const Shop = () => {
         <div className="text-center mb-12">
           <h1 className="text-display mb-4">Shop</h1>
           <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
-            Browse our complete collection of premium phone protection
+            Browse our complete collection of premium table protection
           </p>
         </div>
         

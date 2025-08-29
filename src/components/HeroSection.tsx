@@ -25,15 +25,15 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="text-hero mb-6 animate-slide-up">
-            Premium <span className="text-gradient-primary">Phone Covers</span> for
+            Premium <span className="text-gradient-primary">Table Covers</span> for
             <br />
             <span className="text-gradient-gold">Ultimate Protection</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-body-large text-muted-foreground mb-8 max-w-2xl mx-auto animate-slide-up delay-200">
-            Discover our collection of ultra-durable, stylish phone covers designed to protect 
-            your device while expressing your unique style. Engineered for perfection.
+            Discover our collection of ultra-durable, transparent table covers designed to protect 
+            your dining table while maintaining its natural beauty. Engineered for perfection.
           </p>
 
           {/* CTA Buttons */}
@@ -52,14 +52,14 @@ const HeroSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto animate-scale-in delay-500">
             <div className="glass-card p-6 text-center">
               <Shield className="w-8 h-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">Military Grade</h3>
-              <p className="text-sm text-muted-foreground">Drop protection up to 12 feet</p>
+              <h3 className="font-semibold mb-2">Superior Protection</h3>
+              <p className="text-sm text-muted-foreground">Heat, scratch & spill resistant</p>
             </div>
             
             <div className="glass-card p-6 text-center">
               <Star className="w-8 h-8 text-gold mx-auto mb-3" />
-              <h3 className="font-semibold mb-2">Premium Materials</h3>
-              <p className="text-sm text-muted-foreground">High-quality polycarbonate & TPU</p>
+              <h3 className="font-semibold mb-2">Crystal Clear</h3>
+              <p className="text-sm text-muted-foreground">100% transparency, 200% protection</p>
             </div>
             
             <div className="glass-card p-6 text-center">

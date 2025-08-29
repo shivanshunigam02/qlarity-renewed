@@ -8,25 +8,25 @@ import { Link } from 'react-router-dom';
 const Index = () => {
   const featuredProducts = [
     {
-      title: "Premium Clear Case - iPhone 15 Pro",
-      price: "$29.99",
-      originalPrice: "$39.99",
+      title: "Premium Transparent Table Cover - 1.5mm",
+      price: "₹1,499",
+      originalPrice: "₹1,899",
       image: "/api/placeholder/300/300",
       rating: 5,
       reviews: 124,
       isNew: true,
     },
     {
-      title: "Magnetic Leather Wallet Case",
-      price: "$49.99",
+      title: "Heavy Duty Table Protection - 2mm",
+      price: "₹2,299",
       image: "/api/placeholder/300/300",
       rating: 5,
       reviews: 89,
     },
     {
-      title: "Rugged Defender Series",
-      price: "$34.99",
-      originalPrice: "$44.99", 
+      title: "Frosted Finish Table Cover - 3mm",
+      price: "₹2,999",
+      originalPrice: "₹3,499", 
       image: "/api/placeholder/300/300",
       rating: 4,
       reviews: 156,
@@ -37,19 +37,19 @@ const Index = () => {
     {
       name: "Sarah Johnson",
       rating: 5,
-      comment: "Absolutely love my QlarityCover! The quality is exceptional and it's protected my phone through multiple drops.",
+      comment: "Absolutely love my QlarityCover! The quality is exceptional and it's protected my dining table from scratches and spills perfectly.",
       verified: true,
     },
     {
       name: "Mike Chen",
       rating: 5,
-      comment: "Best phone case I've ever owned. The design is sleek and the protection is outstanding.",
+      comment: "Best table cover I've ever owned. Crystal clear transparency preserves the beauty of my wooden table while providing excellent protection.",
       verified: true,
     },
     {
       name: "Emma Davis",
       rating: 5,
-      comment: "Premium quality at an affordable price. The magnetic feature works perfectly with my car mount.",
+      comment: "Premium quality at an affordable price. The custom size fit perfectly and the thickness is just right for daily use.",
       verified: true,
     },
   ];
@@ -67,7 +67,7 @@ const Index = () => {
               Featured <span className="text-gradient-primary">Products</span>
             </h2>
             <p className="text-body-large text-muted-foreground max-w-2xl mx-auto animate-fade-in delay-200">
-              Discover our most popular phone covers, engineered for ultimate protection and style
+              Discover our most popular table covers, engineered for ultimate protection and clarity
             </p>
           </div>
 
@@ -104,23 +104,23 @@ const Index = () => {
             {[
               {
                 icon: Shield,
-                title: "Military Grade Protection",
-                description: "Tested to withstand drops up to 12 feet with advanced shock absorption technology.",
+                title: "Superior Protection",
+                description: "Heat-resistant, waterproof, and scratch-proof protection for your valuable dining table.",
               },
               {
                 icon: Star,
-                title: "Premium Materials",
-                description: "Crafted from high-quality polycarbonate and TPU for durability and flexibility.",
+                title: "Crystal Clear Quality",
+                description: "100% transparent premium PVC material that maintains your table's natural beauty.",
               },
               {
                 icon: Truck,
                 title: "Fast & Free Shipping",
-                description: "Free shipping on all orders over $25 with express delivery options available.",
+                description: "Free shipping on all orders over ₹2000 with express delivery options available.",
               },
               {
                 icon: Award,
-                title: "Lifetime Warranty",
-                description: "We stand behind our products with a comprehensive lifetime warranty guarantee.",
+                title: "Custom Sizing",
+                description: "Perfect fit guaranteed with our custom measurement and cutting service.",
               },
             ].map((benefit, index) => (
               <div
@@ -145,7 +145,7 @@ const Index = () => {
               What Our <span className="text-gradient-primary">Customers</span> Say
             </h2>
             <p className="text-body-large text-muted-foreground max-w-2xl mx-auto animate-fade-in delay-200">
-              Join thousands of satisfied customers who trust QlarityCovers for their device protection
+              Join thousands of satisfied customers who trust QlarityCovers for their table protection
             </p>
           </div>
 
@@ -188,11 +188,11 @@ const Index = () => {
       <section className="py-16 lg:py-24 bg-gradient-to-r from-primary to-purple-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-display mb-4 animate-fade-in">
-            Ready to Protect Your Device?
+            Ready to Protect Your Table?
           </h2>
           <p className="text-body-large mb-8 max-w-2xl mx-auto opacity-90 animate-fade-in delay-200">
-            Experience premium protection with our award-winning phone covers. 
-            Shop now and get free shipping on orders over $25.
+            Experience premium protection with our award-winning table covers. 
+            Shop now and get free shipping on orders over ₹2000.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up delay-300">

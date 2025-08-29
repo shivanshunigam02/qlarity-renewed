@@ -1,0 +1,27 @@
+
+import React from 'react';
+
+const Shop = () => {
+  return (
+    <div className="min-h-screen pt-20 pb-16">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h1 className="text-display mb-4">Shop</h1>
+          <p className="text-body-large text-muted-foreground max-w-2xl mx-auto">
+            Browse our complete collection of premium phone protection
+          </p>
+        </div>
+        
+        <div className="glass-card p-12 text-center">
+          <h2 className="text-heading mb-4 text-gradient-primary">Coming Soon</h2>
+          <p className="text-muted-foreground">
+            Our full e-commerce experience is being perfected. 
+            Stay tuned for the complete shopping experience!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Shop;
